@@ -1,11 +1,7 @@
 numpy
 pandas
-scipy
 matplotlib
 seaborn
-jupyter
-sqlalchemy
-scikit-learn 
-joblib 
-streamlit
-psycopg2
+scikit-learn==1.6.1 
+joblib==1.4.2
+streamlit==1.34.0
