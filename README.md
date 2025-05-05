@@ -68,8 +68,8 @@ Setup Environment: Proyek ini membutuhkan lingkungan sederhana untuk menjalankan
         ```
     - Login ke Metabase menggunakan username dan password berikut:
         ```
-        username: root@mail.com
-        password: root123
+        username: aflah@dicoding.com
+        password: dicoding1234;
         ```
 
 ---
