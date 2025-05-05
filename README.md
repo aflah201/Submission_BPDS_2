@@ -54,10 +54,32 @@ Proyek ini mencakup:
 Sumber data: [Dataset - Student Performance](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/students_performance/data.csv)
 
 Setup Environment: Proyek ini membutuhkan lingkungan sederhana untuk menjalankan analisis data dan dashboard. Berikut langkah-langkah untuk mempersiapkan environment:
-1. Menjalankan berkas `notebook.ipynb`
+1. Persiapan Environment Pipenv
+    - Buka terminal atau PowerShell.
+    - Buat sebuah folder baru bernama student_dropout dengan menjalankan perintah berikut.
+    ```
+    mkdir student_dropout
+    ```
+    - Pindah ke folder terbaru tersebut menggunakan perintah berikut.
+    ```
+    cd student_dropout
+    ```
+    - Buat sebuah virtual environment dengan menjalankan perintah berikut.
+    ```
+    pipenv install
+    ```
+    - Aktifkan virtual environment dengan menjalankan perintah berikut.
+    ```
+    pipenv shell
+    ```
+    - Install dependensi, packages, library.
+    ```
+    pip install -r requirements.txt
+    ```
+2. Menjalankan berkas `notebook.ipynb`
     - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file requirements.txt untuk melihat dependensi yang dibutuhkan).
     - Jalankan seluruh isi file notebook.ipynb menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
-2. Menjalankan Dashboard: Untuk melihat isi dashboard secara langsung, dapat menggunakan metabase dengan bantuan Docker (pastikan Docker sudah terinstall)
+3. Menjalankan Dashboard: Untuk melihat isi dashboard secara langsung, dapat menggunakan metabase dengan bantuan Docker (pastikan Docker sudah terinstall)
     - Jalankan perintah berikut:
         ```
         docker pull metabase/metabase:v0.46.4
